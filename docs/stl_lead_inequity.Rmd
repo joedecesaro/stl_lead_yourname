@@ -44,7 +44,7 @@ stl_lead_prop <- stl_lead %>%
 ```
 
 #create scatter plot
-```{r}
+```{r width = 5 height =12}
 
 stl_lead_plot <- ggplot(data = stl_lead_prop, aes(x = pct_elevated, y = prop_white)) + 
   geom_point(aes(), color = 'red', size = 3, alpha = 1/3, fig.dim = c(4,6)) 
